@@ -8,7 +8,14 @@ Simple Streamlit UI for content-based image retrieval using a pretrained ResNet5
 
 ## Quickstart
 
-1. Create and activate a Python 3.10+ virtual environment.
+The project works best inside a Python virtual environment. Example commands used by the author:
+
+1. Create a virtual environment and activate it:
+   ```sh
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
 2. Install dependencies:
    ```sh
    pip install -r requirements.txt
